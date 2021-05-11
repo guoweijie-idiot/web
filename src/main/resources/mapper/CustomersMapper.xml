@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.idiot.web.mapper.CustomersMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.idiot.web.model.Customers">
+        <id column="custom_id" property="customId" />
+        <result column="custom_name" property="customName" />
+        <result column="custom_address" property="customAddress" />
+        <result column="custom_city" property="customCity" />
+        <result column="custom_state" property="customState" />
+        <result column="custom_zip" property="customZip" />
+        <result column="custom_country" property="customCountry" />
+        <result column="custom_contact" property="customContact" />
+        <result column="custom_email" property="customEmail" />
+    </resultMap>
+
+</mapper>

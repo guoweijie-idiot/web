@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /web
+
+spring:
+  profiles:
+    active: test
+  application:
+    name: web
+
